@@ -26,7 +26,10 @@ namespace SelectionStatements
 
 
             }
+            var answer = 4;
+            var repsonse = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater than or equal to nine";
 
+          
         }
     }
 }
